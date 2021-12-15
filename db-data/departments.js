@@ -22,13 +22,13 @@ const DEPARTMENTS = [
   {
     name: 'Subotica',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Vojvodina',
+    parent: 'Severnobacki okrug',
     ancestors: ['Srbija', 'Vojvodina', 'Severnobacki okrug']
   },
   {
     name: 'Radnja 1',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Vojvodina',
+    parent: 'Subotica',
     ancestors: ['Srbija', 'Vojvodina', 'Severnobacki okrug', 'Subotica']
   },
   {
@@ -40,43 +40,43 @@ const DEPARTMENTS = [
   {
     name: 'Novi Sad',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Vojvodina',
+    parent: 'Juznobacki okrug',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug']
   },
   {
     name: 'Detelinara',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Vojvodina',
+    parent: 'Novi Sad',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad']
   },
   {
     name: 'Radnja 2',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Vojvodina',
+    parent: 'Detelinara',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad', 'Detelinara']
   },
   {
     name: 'Radnja 3',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Vojvodina',
+    parent: 'Detelinara',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad', 'Detelinara']
   },
   {
     name: 'Liman',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Vojvodina',
+    parent: 'Novi Sad',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad']
   },
   {
     name: 'Radnja 4',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Vojvodina',
+    parent: 'Liman',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad', 'Liman']
   },
   {
     name: 'Radnja 5',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Vojvodina',
+    parent: 'Liman',
     ancestors: ['Srbija', 'Vojvodina', 'Juznobacki okrug', 'Novi Sad', 'Liman']
   },
   {
@@ -88,55 +88,55 @@ const DEPARTMENTS = [
   {
     name: 'Novi Beograd',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Srbija',
+    parent: 'Grad Beograd',
     ancestors: ['Srbija', 'Grad Beograd']
   },
   {
     name: 'Bezanija',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Srbija',
+    parent: 'Novi Beograd',
     ancestors: ['Srbija', 'Grad Beograd', 'Novi Beograd']
   },
   {
     name: 'Radnja 6',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Srbija',
+    parent: 'Bezanija',
     ancestors: ['Srbija', 'Grad Beograd', 'Novi Beograd', 'Bezanija']
   },
   {
     name: 'Vracar',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Srbija',
+    parent: 'Grad Beograd',
     ancestors: ['Srbija', 'Grad Beograd']
   },
   {
     name: 'Neimar',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Srbija',
+    parent: 'Vracar',
     ancestors: ['Srbija', 'Grad Beograd', 'Vracar']
   },
   {
     name: 'Radnja 7',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Srbija',
+    parent: 'Neimar',
     ancestors: ['Srbija', 'Grad Beograd', 'Vracar', 'Neimar']
   },
   {
     name: 'Crveni krst',
     type: DEPARTMENT_TYPES.Office,
-    parent: 'Srbija',
+    parent: 'Vracar',
     ancestors: ['Srbija', 'Grad Beograd', 'Vracar']
   },
   {
     name: 'Radnja 8',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Srbija',
+    parent: 'Crveni krst',
     ancestors: ['Srbija', 'Grad Beograd', 'Vracar', 'Crveni krst']
   },
   {
     name: 'Radnja 9',
     type: DEPARTMENT_TYPES.Store,
-    parent: 'Srbija',
+    parent: 'Crveni krst',
     ancestors: ['Srbija', 'Grad Beograd', 'Vracar', 'Crveni krst']
   }
 ]
